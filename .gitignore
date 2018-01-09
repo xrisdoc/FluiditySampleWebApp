@@ -259,3 +259,22 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+
+# Ignore the items in the Umbraco App_Data
+*.publishproj
+**/App_Data/cache/
+**/App_Data/[Nn]u[Gg]et[Bb]ackup/
+**/App_Data/preview/
+**/App_Data/PublishProfiles
+**/App_Data/Logs/
+**/App_Data/TEMP/
+**/App_Data/umbraco.config
+**/aspnet_client/
+**/App_Data/umbraco.config
+
+!**/App_Data/*.sdf
+!**/App_Data/*.mdf
+!**/App_Data/*.ldf
+!**/App_Data/[Pp]ackages/*
+!**/[Uu]mbraco/[Dd]eveloper/[Pp]ackages/*
